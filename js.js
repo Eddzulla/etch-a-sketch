@@ -51,12 +51,19 @@ resetBtn.addEventListener("click", resetGrid);
 
 
 newGridBtn.addEventListener("click", ()=> {
-    let newSize = prompt("What size of grid do you want");
+    let rawSize = prompt("What size of grid do you want");
+    let newSize = parseInt(rawSize);
+
+    console.log(newSize);
+    console.log(typeof newSize);
     if(newSize<0){
         alert("Size must be larger than 0");
     }    
     else if(newSize>100){
            alert("Size must be less than 100")
+    }
+    else if(!Number.isInteger(newSize)){
+        alert("Size must be integer")
     }
         else{
             divContainer.innerHTML="";

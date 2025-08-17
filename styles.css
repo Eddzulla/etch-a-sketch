@@ -1,6 +1,10 @@
+body{
+    background: darkgreen;
+}
 .title-div{
     text-align: center;
     margin-bottom: 10px;
+    color: white;
 }
 
 .outer-container{
@@ -8,6 +12,7 @@
     justify-content: center;
 }
 .container{
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,4 +31,6 @@
 .square{
     background-color: white;
 }
-
+.btn{
+    border: solid 5px black;
+}
