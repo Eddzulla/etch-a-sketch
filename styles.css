@@ -1,0 +1,29 @@
+.title-div{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.outer-container{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    height: 700px;
+    border: solid 2px black;
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.square{
+    background-color: white;
+}
+
